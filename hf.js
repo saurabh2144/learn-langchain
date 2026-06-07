@@ -10,8 +10,6 @@ const model = new ChatOpenAI({
 });
 
 
-
-
 const response = await model.invoke("What is the capital of France?");
 
 console.log(response.content);
